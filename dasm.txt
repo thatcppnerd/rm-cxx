@@ -1,0 +1,2914 @@
+
+rm-cxx.o:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	c3                   	ret
+   1:	55                   	push   %ebp
+   2:	89 e5                	mov    %esp,%ebp
+   4:	b8 01 00 50 b8       	mov    $0xb8500001,%eax
+   9:	00 00                	add    %al,(%eax)
+   b:	50                   	push   %eax
+   c:	e8 fe ff b0 10       	call   0x10b1000f
+  11:	50                   	push   %eax
+  12:	e8 fe ff 83 c4       	call   0xc4840015
+  17:	06                   	push   %es
+  18:	c7 46 04 00 00 89 ec 	movl   $0xec890000,0x4(%esi)
+  1f:	5d                   	pop    %ebp
+  20:	e9 fe ff 55 89       	jmp    0x89560023
+  25:	e5 1e                	in     $0x1e,%eax
+  27:	8a 46 04             	mov    0x4(%esi),%al
+  2a:	88 46 ff             	mov    %al,-0x1(%esi)
+  2d:	8a 46 06             	mov    0x6(%esi),%al
+  30:	88 46 fe             	mov    %al,-0x2(%esi)
+  33:	b0 01                	mov    $0x1,%al
+  35:	50                   	push   %eax
+  36:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  3b:	fe                   	(bad)
+  3c:	ff                   	(bad)
+  3d:	ff 76 ff             	push   -0x1(%esi)
+  40:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  45:	fe                   	(bad)
+  46:	ff                   	(bad)
+  47:	ff 76 fe             	push   -0x2(%esi)
+  4a:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  4f:	fe                   	(bad)
+  50:	ff 83 c4 0c c6 46    	incl   0x46c60cc4(%ebx)
+  56:	04 10                	add    $0x10,%al
+  58:	89 ec                	mov    %ebp,%esp
+  5a:	5d                   	pop    %ebp
+  5b:	e9 fe ff 55 89       	jmp    0x8956005e
+  60:	e5 1e                	in     $0x1e,%eax
+  62:	1e                   	push   %ds
+  63:	8a 46 04             	mov    0x4(%esi),%al
+  66:	88 46 ff             	mov    %al,-0x1(%esi)
+  69:	8a 46 06             	mov    0x6(%esi),%al
+  6c:	88 46 fe             	mov    %al,-0x2(%esi)
+  6f:	8a 46 08             	mov    0x8(%esi),%al
+  72:	88 46 fd             	mov    %al,-0x3(%esi)
+  75:	b0 02                	mov    $0x2,%al
+  77:	50                   	push   %eax
+  78:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  7d:	fe                   	(bad)
+  7e:	ff                   	(bad)
+  7f:	ff 76 fd             	push   -0x3(%esi)
+  82:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  87:	fe                   	(bad)
+  88:	ff                   	(bad)
+  89:	ff 76 fe             	push   -0x2(%esi)
+  8c:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  91:	fe                   	(bad)
+  92:	ff                   	(bad)
+  93:	ff 76 ff             	push   -0x1(%esi)
+  96:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  9b:	fe                   	(bad)
+  9c:	ff 83 c4 10 c6 46    	incl   0x46c610c4(%ebx)
+  a2:	04 10                	add    $0x10,%al
+  a4:	89 ec                	mov    %ebp,%esp
+  a6:	5d                   	pop    %ebp
+  a7:	e9 fe ff 56 55       	jmp    0x555700aa
+  ac:	89 e5                	mov    %esp,%ebp
+  ae:	1e                   	push   %ds
+  af:	1e                   	push   %ds
+  b0:	b0 03                	mov    $0x3,%al
+  b2:	50                   	push   %eax
+  b3:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  b8:	fe                   	(bad)
+  b9:	ff                   	(bad)
+  ba:	ff 76 06             	push   0x6(%esi)
+  bd:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  c2:	fe                   	(bad)
+  c3:	ff b0 10 50 e8 fe    	push   -0x117aff0(%eax)
+  c9:	ff                   	(bad)
+  ca:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  cf:	fe                   	(bad)
+  d0:	ff 31                	push   (%ecx)
+  d2:	d2 88 c2 89 56 fe    	rorb   %cl,-0x1a9763e(%eax)
+  d8:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  dd:	fe                   	(bad)
+  de:	ff b1 08 d3 e0 8b    	push   -0x741f2cf8(%ecx)
+  e4:	56                   	push   %esi
+  e5:	fe 09                	decb   (%ecx)
+  e7:	c2 89 d6             	ret    $0xd689
+  ea:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  ef:	fe                   	(bad)
+  f0:	ff 31                	push   (%ecx)
+  f2:	d2 88 c2 89 56 fe    	rorb   %cl,-0x1a9763e(%eax)
+  f8:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+  fd:	fe                   	(bad)
+  fe:	ff b1 08 d3 e0 8b    	push   -0x741f2cf8(%ecx)
+ 104:	56                   	push   %esi
+ 105:	fe 09                	decb   (%ecx)
+ 107:	c2 83 c4             	ret    $0xc483
+ 10a:	12 96 89 ec 5d 5e    	adc    0x5e5dec89(%esi),%dl
+ 110:	c3                   	ret
+ 111:	56                   	push   %esi
+ 112:	57                   	push   %edi
+ 113:	55                   	push   %ebp
+ 114:	89 e5                	mov    %esp,%ebp
+ 116:	83 ec 06             	sub    $0x6,%esp
+ 119:	8b 5e 08             	mov    0x8(%esi),%ebx
+ 11c:	89 5e fa             	mov    %ebx,-0x6(%esi)
+ 11f:	b0 04                	mov    $0x4,%al
+ 121:	50                   	push   %eax
+ 122:	be 00 00 56 e8       	mov    $0xe8560000,%esi
+ 127:	fe                   	(bad)
+ 128:	ff b0 10 50 e8 fe    	push   -0x117aff0(%eax)
+ 12e:	ff 56 e8             	call   *-0x18(%esi)
+ 131:	fe                   	(bad)
+ 132:	ff 88 46 fd b8 00    	decl   0xb8fd46(%eax)
+ 138:	00 50 e8             	add    %dl,-0x18(%eax)
+ 13b:	fe                   	(bad)
+ 13c:	ff 96 b8 00 00 50    	call   *0x500000b8(%esi)
+ 142:	e8 fe ff 88 46       	call   0x46890145
+ 147:	fe                   	(bad)
+ 148:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 14d:	fe                   	(bad)
+ 14e:	ff 97 b8 00 00 50    	call   *0x500000b8(%edi)
+ 154:	e8 fe ff 88 46       	call   0x46890157
+ 159:	ff                   	(bad)
+ 15a:	b9 00 00 51 e8       	mov    $0xe8510000,%ecx
+ 15f:	fe                   	(bad)
+ 160:	ff 8a 76 fd 8b 5e    	decl   0x5e8bfd76(%edx)
+ 166:	fa                   	cli
+ 167:	88 37                	mov    %dh,(%edi)
+ 169:	89 77 01             	mov    %esi,0x1(%edi)
+ 16c:	8a 56 fe             	mov    -0x2(%esi),%dl
+ 16f:	88 57 03             	mov    %dl,0x3(%edi)
+ 172:	89 7f 04             	mov    %edi,0x4(%edi)
+ 175:	8a 66 ff             	mov    -0x1(%esi),%ah
+ 178:	86 c4                	xchg   %al,%ah
+ 17a:	89 47 06             	mov    %eax,0x6(%edi)
+ 17d:	93                   	xchg   %eax,%ebx
+ 17e:	89 ec                	mov    %ebp,%esp
+ 180:	5d                   	pop    %ebp
+ 181:	5f                   	pop    %edi
+ 182:	5e                   	pop    %esi
+ 183:	c3                   	ret
+ 184:	55                   	push   %ebp
+ 185:	89 e5                	mov    %esp,%ebp
+ 187:	1e                   	push   %ds
+ 188:	8a 46 04             	mov    0x4(%esi),%al
+ 18b:	88 46 ff             	mov    %al,-0x1(%esi)
+ 18e:	b0 05                	mov    $0x5,%al
+ 190:	50                   	push   %eax
+ 191:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 196:	fe                   	(bad)
+ 197:	ff                   	(bad)
+ 198:	ff 76 ff             	push   -0x1(%esi)
+ 19b:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 1a0:	fe                   	(bad)
+ 1a1:	ff 83 c4 08 c6 46    	incl   0x46c608c4(%ebx)
+ 1a7:	04 10                	add    $0x10,%al
+ 1a9:	89 ec                	mov    %ebp,%esp
+ 1ab:	5d                   	pop    %ebp
+ 1ac:	e9 fe ff 55 89       	jmp    0x895601af
+ 1b1:	e5 83                	in     $0x83,%eax
+ 1b3:	ec                   	in     (%dx),%al
+ 1b4:	06                   	push   %es
+ 1b5:	8a 46 04             	mov    0x4(%esi),%al
+ 1b8:	88 46 ff             	mov    %al,-0x1(%esi)
+ 1bb:	8a 46 06             	mov    0x6(%esi),%al
+ 1be:	88 46 fe             	mov    %al,-0x2(%esi)
+ 1c1:	8a 46 08             	mov    0x8(%esi),%al
+ 1c4:	88 46 fd             	mov    %al,-0x3(%esi)
+ 1c7:	8a 46 0a             	mov    0xa(%esi),%al
+ 1ca:	88 46 fc             	mov    %al,-0x4(%esi)
+ 1cd:	8a 46 0c             	mov    0xc(%esi),%al
+ 1d0:	88 46 fb             	mov    %al,-0x5(%esi)
+ 1d3:	8a 46 0e             	mov    0xe(%esi),%al
+ 1d6:	88 46 fa             	mov    %al,-0x6(%esi)
+ 1d9:	b0 06                	mov    $0x6,%al
+ 1db:	50                   	push   %eax
+ 1dc:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 1e1:	fe                   	(bad)
+ 1e2:	ff                   	(bad)
+ 1e3:	ff 76 ff             	push   -0x1(%esi)
+ 1e6:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 1eb:	fe                   	(bad)
+ 1ec:	ff                   	(bad)
+ 1ed:	ff 76 fe             	push   -0x2(%esi)
+ 1f0:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 1f5:	fe                   	(bad)
+ 1f6:	ff                   	(bad)
+ 1f7:	ff 76 fd             	push   -0x3(%esi)
+ 1fa:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 1ff:	fe                   	(bad)
+ 200:	ff                   	(bad)
+ 201:	ff 76 fc             	push   -0x4(%esi)
+ 204:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 209:	fe                   	(bad)
+ 20a:	ff                   	(bad)
+ 20b:	ff 76 fb             	push   -0x5(%esi)
+ 20e:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 213:	fe                   	(bad)
+ 214:	ff                   	(bad)
+ 215:	ff 76 fa             	push   -0x6(%esi)
+ 218:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 21d:	fe                   	(bad)
+ 21e:	ff 83 c4 1c c6 46    	incl   0x46c61cc4(%ebx)
+ 224:	04 10                	add    $0x10,%al
+ 226:	89 ec                	mov    %ebp,%esp
+ 228:	5d                   	pop    %ebp
+ 229:	e9 fe ff 55 89       	jmp    0x8956022c
+ 22e:	e5 83                	in     $0x83,%eax
+ 230:	ec                   	in     (%dx),%al
+ 231:	06                   	push   %es
+ 232:	8a 46 04             	mov    0x4(%esi),%al
+ 235:	88 46 ff             	mov    %al,-0x1(%esi)
+ 238:	8a 46 06             	mov    0x6(%esi),%al
+ 23b:	88 46 fe             	mov    %al,-0x2(%esi)
+ 23e:	8a 46 08             	mov    0x8(%esi),%al
+ 241:	88 46 fd             	mov    %al,-0x3(%esi)
+ 244:	8a 46 0a             	mov    0xa(%esi),%al
+ 247:	88 46 fc             	mov    %al,-0x4(%esi)
+ 24a:	8a 46 0c             	mov    0xc(%esi),%al
+ 24d:	88 46 fb             	mov    %al,-0x5(%esi)
+ 250:	8a 46 0e             	mov    0xe(%esi),%al
+ 253:	88 46 fa             	mov    %al,-0x6(%esi)
+ 256:	b0 07                	mov    $0x7,%al
+ 258:	50                   	push   %eax
+ 259:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 25e:	fe                   	(bad)
+ 25f:	ff                   	(bad)
+ 260:	ff 76 ff             	push   -0x1(%esi)
+ 263:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 268:	fe                   	(bad)
+ 269:	ff                   	(bad)
+ 26a:	ff 76 fe             	push   -0x2(%esi)
+ 26d:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 272:	fe                   	(bad)
+ 273:	ff                   	(bad)
+ 274:	ff 76 fd             	push   -0x3(%esi)
+ 277:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 27c:	fe                   	(bad)
+ 27d:	ff                   	(bad)
+ 27e:	ff 76 fc             	push   -0x4(%esi)
+ 281:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 286:	fe                   	(bad)
+ 287:	ff                   	(bad)
+ 288:	ff 76 fb             	push   -0x5(%esi)
+ 28b:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 290:	fe                   	(bad)
+ 291:	ff                   	(bad)
+ 292:	ff 76 fa             	push   -0x6(%esi)
+ 295:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 29a:	fe                   	(bad)
+ 29b:	ff 83 c4 1c c6 46    	incl   0x46c61cc4(%ebx)
+ 2a1:	04 10                	add    $0x10,%al
+ 2a3:	89 ec                	mov    %ebp,%esp
+ 2a5:	5d                   	pop    %ebp
+ 2a6:	e9 fe ff 56 55       	jmp    0x555702a9
+ 2ab:	89 e5                	mov    %esp,%ebp
+ 2ad:	1e                   	push   %ds
+ 2ae:	1e                   	push   %ds
+ 2af:	b0 08                	mov    $0x8,%al
+ 2b1:	50                   	push   %eax
+ 2b2:	be 00 00 56 e8       	mov    $0xe8560000,%esi
+ 2b7:	fe                   	(bad)
+ 2b8:	ff                   	(bad)
+ 2b9:	ff 76 06             	push   0x6(%esi)
+ 2bc:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 2c1:	fe                   	(bad)
+ 2c2:	ff b0 10 50 e8 fe    	push   -0x117aff0(%eax)
+ 2c8:	ff 56 e8             	call   *-0x18(%esi)
+ 2cb:	fe                   	(bad)
+ 2cc:	ff 31                	push   (%ecx)
+ 2ce:	d2 88 c2 89 56 fe    	rorb   %cl,-0x1a9763e(%eax)
+ 2d4:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 2d9:	fe                   	(bad)
+ 2da:	ff b1 08 d3 e0 8b    	push   -0x741f2cf8(%ecx)
+ 2e0:	56                   	push   %esi
+ 2e1:	fe 09                	decb   (%ecx)
+ 2e3:	d0 89 ec 5d 5e c3    	rorb   -0x3ca1a214(%ecx)
+ 2e9:	55                   	push   %ebp
+ 2ea:	89 e5                	mov    %esp,%ebp
+ 2ec:	1e                   	push   %ds
+ 2ed:	1e                   	push   %ds
+ 2ee:	8a 46 04             	mov    0x4(%esi),%al
+ 2f1:	88 46 ff             	mov    %al,-0x1(%esi)
+ 2f4:	8a 46 06             	mov    0x6(%esi),%al
+ 2f7:	88 46 fe             	mov    %al,-0x2(%esi)
+ 2fa:	8a 46 08             	mov    0x8(%esi),%al
+ 2fd:	88 46 fd             	mov    %al,-0x3(%esi)
+ 300:	8a 46 0a             	mov    0xa(%esi),%al
+ 303:	88 46 fc             	mov    %al,-0x4(%esi)
+ 306:	b0 09                	mov    $0x9,%al
+ 308:	50                   	push   %eax
+ 309:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 30e:	fe                   	(bad)
+ 30f:	ff                   	(bad)
+ 310:	ff 76 ff             	push   -0x1(%esi)
+ 313:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 318:	fe                   	(bad)
+ 319:	ff                   	(bad)
+ 31a:	ff 76 fe             	push   -0x2(%esi)
+ 31d:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 322:	fe                   	(bad)
+ 323:	ff                   	(bad)
+ 324:	ff 76 fd             	push   -0x3(%esi)
+ 327:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 32c:	fe                   	(bad)
+ 32d:	ff 8a 46 fc 30 e4    	decl   -0x1bcf03ba(%edx)
+ 333:	50                   	push   %eax
+ 334:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 339:	fe                   	(bad)
+ 33a:	ff 83 c4 14 c6 46    	incl   0x46c614c4(%ebx)
+ 340:	04 10                	add    $0x10,%al
+ 342:	89 ec                	mov    %ebp,%esp
+ 344:	5d                   	pop    %ebp
+ 345:	e9 fe ff 55 89       	jmp    0x89560348
+ 34a:	e5 1e                	in     $0x1e,%eax
+ 34c:	1e                   	push   %ds
+ 34d:	8a 46 04             	mov    0x4(%esi),%al
+ 350:	88 46 ff             	mov    %al,-0x1(%esi)
+ 353:	8a 46 06             	mov    0x6(%esi),%al
+ 356:	88 46 fe             	mov    %al,-0x2(%esi)
+ 359:	8a 46 08             	mov    0x8(%esi),%al
+ 35c:	88 46 fd             	mov    %al,-0x3(%esi)
+ 35f:	b0 0a                	mov    $0xa,%al
+ 361:	50                   	push   %eax
+ 362:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 367:	fe                   	(bad)
+ 368:	ff                   	(bad)
+ 369:	ff 76 ff             	push   -0x1(%esi)
+ 36c:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 371:	fe                   	(bad)
+ 372:	ff                   	(bad)
+ 373:	ff 76 fe             	push   -0x2(%esi)
+ 376:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 37b:	fe                   	(bad)
+ 37c:	ff 8a 46 fd 30 e4    	decl   -0x1bcf02ba(%edx)
+ 382:	50                   	push   %eax
+ 383:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 388:	fe                   	(bad)
+ 389:	ff 83 c4 10 c6 46    	incl   0x46c610c4(%ebx)
+ 38f:	04 10                	add    $0x10,%al
+ 391:	89 ec                	mov    %ebp,%esp
+ 393:	5d                   	pop    %ebp
+ 394:	e9 fe ff 55 89       	jmp    0x89560397
+ 399:	e5 1e                	in     $0x1e,%eax
+ 39b:	8a 46 04             	mov    0x4(%esi),%al
+ 39e:	88 46 ff             	mov    %al,-0x1(%esi)
+ 3a1:	b0 0b                	mov    $0xb,%al
+ 3a3:	50                   	push   %eax
+ 3a4:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 3a9:	fe                   	(bad)
+ 3aa:	ff 30                	push   (%eax)
+ 3ac:	c0 50 b8 00          	rclb   $0x0,-0x48(%eax)
+ 3b0:	00 50 e8             	add    %dl,-0x18(%eax)
+ 3b3:	fe                   	(bad)
+ 3b4:	ff                   	(bad)
+ 3b5:	ff 76 ff             	push   -0x1(%esi)
+ 3b8:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 3bd:	fe                   	(bad)
+ 3be:	ff 83 c4 0c c6 46    	incl   0x46c60cc4(%ebx)
+ 3c4:	04 10                	add    $0x10,%al
+ 3c6:	89 ec                	mov    %ebp,%esp
+ 3c8:	5d                   	pop    %ebp
+ 3c9:	e9 fe ff 55 89       	jmp    0x895603cc
+ 3ce:	e5 1e                	in     $0x1e,%eax
+ 3d0:	8a 46 04             	mov    0x4(%esi),%al
+ 3d3:	88 46 ff             	mov    %al,-0x1(%esi)
+ 3d6:	b0 0b                	mov    $0xb,%al
+ 3d8:	50                   	push   %eax
+ 3d9:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 3de:	fe                   	(bad)
+ 3df:	ff b0 01 50 b8 00    	push   0xb85001(%eax)
+ 3e5:	00 50 e8             	add    %dl,-0x18(%eax)
+ 3e8:	fe                   	(bad)
+ 3e9:	ff                   	(bad)
+ 3ea:	ff 76 ff             	push   -0x1(%esi)
+ 3ed:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 3f2:	fe                   	(bad)
+ 3f3:	ff 83 c4 0c c6 46    	incl   0x46c60cc4(%ebx)
+ 3f9:	04 10                	add    $0x10,%al
+ 3fb:	89 ec                	mov    %ebp,%esp
+ 3fd:	5d                   	pop    %ebp
+ 3fe:	e9 fe ff 56 57       	jmp    0x57570401
+ 403:	55                   	push   %ebp
+ 404:	89 e5                	mov    %esp,%ebp
+ 406:	1e                   	push   %ds
+ 407:	8a 46 08             	mov    0x8(%esi),%al
+ 40a:	88 46 ff             	mov    %al,-0x1(%esi)
+ 40d:	8a 46 0a             	mov    0xa(%esi),%al
+ 410:	88 46 fe             	mov    %al,-0x2(%esi)
+ 413:	8b 76 0c             	mov    0xc(%esi),%esi
+ 416:	8b 7e 0e             	mov    0xe(%esi),%edi
+ 419:	b0 0c                	mov    $0xc,%al
+ 41b:	50                   	push   %eax
+ 41c:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 421:	fe                   	(bad)
+ 422:	ff                   	(bad)
+ 423:	ff 76 ff             	push   -0x1(%esi)
+ 426:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 42b:	fe                   	(bad)
+ 42c:	ff                   	(bad)
+ 42d:	ff 76 fe             	push   -0x2(%esi)
+ 430:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 435:	fe                   	(bad)
+ 436:	ff 56 b8             	call   *-0x48(%esi)
+ 439:	00 00                	add    %al,(%eax)
+ 43b:	50                   	push   %eax
+ 43c:	e8 fe ff 57 b8       	call   0xb858043f
+ 441:	00 00                	add    %al,(%eax)
+ 443:	50                   	push   %eax
+ 444:	e8 fe ff 83 c4       	call   0xc4840447
+ 449:	14 c6                	adc    $0xc6,%al
+ 44b:	46                   	inc    %esi
+ 44c:	08 10                	or     %dl,(%eax)
+ 44e:	89 ec                	mov    %ebp,%esp
+ 450:	5d                   	pop    %ebp
+ 451:	5f                   	pop    %edi
+ 452:	5e                   	pop    %esi
+ 453:	e9 fe ff 56 57       	jmp    0x57570456
+ 458:	55                   	push   %ebp
+ 459:	89 e5                	mov    %esp,%ebp
+ 45b:	1e                   	push   %ds
+ 45c:	8a 46 08             	mov    0x8(%esi),%al
+ 45f:	88 46 ff             	mov    %al,-0x1(%esi)
+ 462:	8b 76 0a             	mov    0xa(%esi),%esi
+ 465:	8b 7e 0c             	mov    0xc(%esi),%edi
+ 468:	b0 0d                	mov    $0xd,%al
+ 46a:	50                   	push   %eax
+ 46b:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 470:	fe                   	(bad)
+ 471:	ff                   	(bad)
+ 472:	ff 76 ff             	push   -0x1(%esi)
+ 475:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 47a:	fe                   	(bad)
+ 47b:	ff 56 b8             	call   *-0x48(%esi)
+ 47e:	00 00                	add    %al,(%eax)
+ 480:	50                   	push   %eax
+ 481:	e8 fe ff 57 b8       	call   0xb8580484
+ 486:	00 00                	add    %al,(%eax)
+ 488:	50                   	push   %eax
+ 489:	e8 fe ff b0 10       	call   0x10b1048c
+ 48e:	50                   	push   %eax
+ 48f:	e8 fe ff 83 c4       	call   0xc4840492
+ 494:	12 c7                	adc    %bh,%al
+ 496:	46                   	inc    %esi
+ 497:	08 00                	or     %al,(%eax)
+ 499:	00 89 ec 5d 5f 5e    	add    %cl,0x5e5f5dec(%ecx)
+ 49f:	e9 fe ff 55 89       	jmp    0x895604a2
+ 4a4:	e5 1e                	in     $0x1e,%eax
+ 4a6:	1e                   	push   %ds
+ 4a7:	8a 46 04             	mov    0x4(%esi),%al
+ 4aa:	88 46 ff             	mov    %al,-0x1(%esi)
+ 4ad:	8a 46 06             	mov    0x6(%esi),%al
+ 4b0:	88 46 fe             	mov    %al,-0x2(%esi)
+ 4b3:	8a 46 08             	mov    0x8(%esi),%al
+ 4b6:	88 46 fd             	mov    %al,-0x3(%esi)
+ 4b9:	b0 0e                	mov    $0xe,%al
+ 4bb:	50                   	push   %eax
+ 4bc:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 4c1:	fe                   	(bad)
+ 4c2:	ff                   	(bad)
+ 4c3:	ff 76 ff             	push   -0x1(%esi)
+ 4c6:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 4cb:	fe                   	(bad)
+ 4cc:	ff                   	(bad)
+ 4cd:	ff 76 fe             	push   -0x2(%esi)
+ 4d0:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 4d5:	fe                   	(bad)
+ 4d6:	ff                   	(bad)
+ 4d7:	ff 76 fd             	push   -0x3(%esi)
+ 4da:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 4df:	fe                   	(bad)
+ 4e0:	ff 83 c4 10 c6 46    	incl   0x46c610c4(%ebx)
+ 4e6:	04 10                	add    $0x10,%al
+ 4e8:	89 ec                	mov    %ebp,%esp
+ 4ea:	5d                   	pop    %ebp
+ 4eb:	e9 fe ff 56 57       	jmp    0x575704ee
+ 4f0:	55                   	push   %ebp
+ 4f1:	89 e5                	mov    %esp,%ebp
+ 4f3:	1e                   	push   %ds
+ 4f4:	8b 76 08             	mov    0x8(%esi),%esi
+ 4f7:	b0 0f                	mov    $0xf,%al
+ 4f9:	50                   	push   %eax
+ 4fa:	bf 00 00 57 e8       	mov    $0xe8570000,%edi
+ 4ff:	fe                   	(bad)
+ 500:	ff b0 10 50 e8 fe    	push   -0x117aff0(%eax)
+ 506:	ff                   	(bad)
+ 507:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 50c:	fe                   	(bad)
+ 50d:	ff 88 46 fe 57 e8    	decl   -0x17a801ba(%eax)
+ 513:	fe                   	(bad)
+ 514:	ff 88 46 ff b9 00    	decl   0xb9ff46(%eax)
+ 51a:	00 51 e8             	add    %dl,-0x18(%ecx)
+ 51d:	fe                   	(bad)
+ 51e:	ff 8a 56 fe 88 14    	decl   0x1488fe56(%edx)
+ 524:	8a 66 ff             	mov    -0x1(%esi),%ah
+ 527:	86 c4                	xchg   %al,%ah
+ 529:	89 44 01 96          	mov    %eax,-0x6a(%ecx,%eax,1)
+ 52d:	89 ec                	mov    %ebp,%esp
+ 52f:	5d                   	pop    %ebp
+ 530:	5f                   	pop    %edi
+ 531:	5e                   	pop    %esi
+ 532:	c3                   	ret
+ 533:	b0 11                	mov    $0x11,%al
+ 535:	50                   	push   %eax
+ 536:	e8 fe ff b8 00       	call   0xb90539
+ 53b:	00 50 e8             	add    %dl,-0x18(%eax)
+ 53e:	fe                   	(bad)
+ 53f:	ff 83 c4 04 c3 b0    	incl   -0x4f3cfb3c(%ebx)
+ 545:	12 50 e8             	adc    -0x18(%eax),%dl
+ 548:	fe                   	(bad)
+ 549:	ff                   	(bad)
+ 54a:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 54f:	fe                   	(bad)
+ 550:	ff 83 c4 04 c3 56    	incl   0x56c304c4(%ebx)
+ 556:	55                   	push   %ebp
+ 557:	89 e5                	mov    %esp,%ebp
+ 559:	1e                   	push   %ds
+ 55a:	8a 46 06             	mov    0x6(%esi),%al
+ 55d:	88 46 ff             	mov    %al,-0x1(%esi)
+ 560:	30 c0                	xor    %al,%al
+ 562:	50                   	push   %eax
+ 563:	be 00 00 56 e8       	mov    $0xe8560000,%esi
+ 568:	fe                   	(bad)
+ 569:	ff                   	(bad)
+ 56a:	ff 76 ff             	push   -0x1(%esi)
+ 56d:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 572:	fe                   	(bad)
+ 573:	ff b0 13 50 e8 fe    	push   -0x117afed(%eax)
+ 579:	ff 83 c4 0a 89 76    	incl   0x76890ac4(%ebx)
+ 57f:	06                   	push   %es
+ 580:	89 ec                	mov    %ebp,%esp
+ 582:	5d                   	pop    %ebp
+ 583:	5e                   	pop    %esi
+ 584:	e9 fe ff 56 55       	jmp    0x55570587
+ 589:	89 e5                	mov    %esp,%ebp
+ 58b:	1e                   	push   %ds
+ 58c:	8a 46 06             	mov    0x6(%esi),%al
+ 58f:	88 46 ff             	mov    %al,-0x1(%esi)
+ 592:	b0 01                	mov    $0x1,%al
+ 594:	50                   	push   %eax
+ 595:	be 00 00 56 e8       	mov    $0xe8560000,%esi
+ 59a:	fe                   	(bad)
+ 59b:	ff                   	(bad)
+ 59c:	ff 76 ff             	push   -0x1(%esi)
+ 59f:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 5a4:	fe                   	(bad)
+ 5a5:	ff b0 13 50 e8 fe    	push   -0x117afed(%eax)
+ 5ab:	ff 83 c4 0a 89 76    	incl   0x76890ac4(%ebx)
+ 5b1:	06                   	push   %es
+ 5b2:	89 ec                	mov    %ebp,%esp
+ 5b4:	5d                   	pop    %ebp
+ 5b5:	5e                   	pop    %esi
+ 5b6:	e9 fe ff 56 57       	jmp    0x575705b9
+ 5bb:	55                   	push   %ebp
+ 5bc:	89 e5                	mov    %esp,%ebp
+ 5be:	1e                   	push   %ds
+ 5bf:	1e                   	push   %ds
+ 5c0:	8b 76 12             	mov    0x12(%esi),%esi
+ 5c3:	ff 76 14             	push   0x14(%esi)
+ 5c6:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 5cb:	fe                   	(bad)
+ 5cc:	ff 56 b8             	call   *-0x48(%esi)
+ 5cf:	00 00                	add    %al,(%eax)
+ 5d1:	50                   	push   %eax
+ 5d2:	e8 fe ff b0 02       	call   0x2b105d5
+ 5d7:	50                   	push   %eax
+ 5d8:	bf 00 00 57 e8       	mov    $0xe8570000,%edi
+ 5dd:	fe                   	(bad)
+ 5de:	ff                   	(bad)
+ 5df:	ff 76 08             	push   0x8(%esi)
+ 5e2:	be 00 00 56 e8       	mov    $0xe8560000,%esi
+ 5e7:	fe                   	(bad)
+ 5e8:	ff                   	(bad)
+ 5e9:	ff 76 0a             	push   0xa(%esi)
+ 5ec:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 5f1:	fe                   	(bad)
+ 5f2:	ff                   	(bad)
+ 5f3:	ff 76 0c             	push   0xc(%esi)
+ 5f6:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 5fb:	fe                   	(bad)
+ 5fc:	ff                   	(bad)
+ 5fd:	ff 76 0e             	push   0xe(%esi)
+ 600:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 605:	fe                   	(bad)
+ 606:	ff                   	(bad)
+ 607:	ff 76 10             	push   0x10(%esi)
+ 60a:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 60f:	fe                   	(bad)
+ 610:	ff 83 c4 20 b0 13    	incl   0x13b020c4(%ebx)
+ 616:	50                   	push   %eax
+ 617:	e8 fe ff 57 e8       	call   0xe858061a
+ 61c:	fe                   	(bad)
+ 61d:	ff 31                	push   (%ecx)
+ 61f:	d2 88 c2 89 56 fe    	rorb   %cl,-0x1a9763e(%eax)
+ 625:	56                   	push   %esi
+ 626:	e8 fe ff b1 08       	call   0x8b20629
+ 62b:	d3 e0                	shl    %cl,%eax
+ 62d:	8b 56 fe             	mov    -0x2(%esi),%edx
+ 630:	09 d0                	or     %edx,%eax
+ 632:	89 ec                	mov    %ebp,%esp
+ 634:	5d                   	pop    %ebp
+ 635:	5f                   	pop    %edi
+ 636:	5e                   	pop    %esi
+ 637:	c3                   	ret
+ 638:	56                   	push   %esi
+ 639:	57                   	push   %edi
+ 63a:	55                   	push   %ebp
+ 63b:	89 e5                	mov    %esp,%ebp
+ 63d:	1e                   	push   %ds
+ 63e:	1e                   	push   %ds
+ 63f:	8b 76 12             	mov    0x12(%esi),%esi
+ 642:	ff 76 14             	push   0x14(%esi)
+ 645:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 64a:	fe                   	(bad)
+ 64b:	ff 56 b8             	call   *-0x48(%esi)
+ 64e:	00 00                	add    %al,(%eax)
+ 650:	50                   	push   %eax
+ 651:	e8 fe ff b0 03       	call   0x3b10654
+ 656:	50                   	push   %eax
+ 657:	bf 00 00 57 e8       	mov    $0xe8570000,%edi
+ 65c:	fe                   	(bad)
+ 65d:	ff                   	(bad)
+ 65e:	ff 76 08             	push   0x8(%esi)
+ 661:	be 00 00 56 e8       	mov    $0xe8560000,%esi
+ 666:	fe                   	(bad)
+ 667:	ff                   	(bad)
+ 668:	ff 76 0a             	push   0xa(%esi)
+ 66b:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 670:	fe                   	(bad)
+ 671:	ff                   	(bad)
+ 672:	ff 76 0c             	push   0xc(%esi)
+ 675:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 67a:	fe                   	(bad)
+ 67b:	ff                   	(bad)
+ 67c:	ff 76 0e             	push   0xe(%esi)
+ 67f:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 684:	fe                   	(bad)
+ 685:	ff                   	(bad)
+ 686:	ff 76 10             	push   0x10(%esi)
+ 689:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 68e:	fe                   	(bad)
+ 68f:	ff 83 c4 20 b0 13    	incl   0x13b020c4(%ebx)
+ 695:	50                   	push   %eax
+ 696:	e8 fe ff 57 e8       	call   0xe8580699
+ 69b:	fe                   	(bad)
+ 69c:	ff 31                	push   (%ecx)
+ 69e:	d2 88 c2 89 56 fe    	rorb   %cl,-0x1a9763e(%eax)
+ 6a4:	56                   	push   %esi
+ 6a5:	e8 fe ff b1 08       	call   0x8b206a8
+ 6aa:	d3 e0                	shl    %cl,%eax
+ 6ac:	8b 56 fe             	mov    -0x2(%esi),%edx
+ 6af:	09 d0                	or     %edx,%eax
+ 6b1:	89 ec                	mov    %ebp,%esp
+ 6b3:	5d                   	pop    %ebp
+ 6b4:	5f                   	pop    %edi
+ 6b5:	5e                   	pop    %esi
+ 6b6:	c3                   	ret
+ 6b7:	56                   	push   %esi
+ 6b8:	57                   	push   %edi
+ 6b9:	55                   	push   %ebp
+ 6ba:	89 e5                	mov    %esp,%ebp
+ 6bc:	1e                   	push   %ds
+ 6bd:	1e                   	push   %ds
+ 6be:	8b 76 12             	mov    0x12(%esi),%esi
+ 6c1:	ff 76 14             	push   0x14(%esi)
+ 6c4:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 6c9:	fe                   	(bad)
+ 6ca:	ff 56 b8             	call   *-0x48(%esi)
+ 6cd:	00 00                	add    %al,(%eax)
+ 6cf:	50                   	push   %eax
+ 6d0:	e8 fe ff b0 04       	call   0x4b106d3
+ 6d5:	50                   	push   %eax
+ 6d6:	bf 00 00 57 e8       	mov    $0xe8570000,%edi
+ 6db:	fe                   	(bad)
+ 6dc:	ff                   	(bad)
+ 6dd:	ff 76 08             	push   0x8(%esi)
+ 6e0:	be 00 00 56 e8       	mov    $0xe8560000,%esi
+ 6e5:	fe                   	(bad)
+ 6e6:	ff                   	(bad)
+ 6e7:	ff 76 0a             	push   0xa(%esi)
+ 6ea:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 6ef:	fe                   	(bad)
+ 6f0:	ff                   	(bad)
+ 6f1:	ff 76 0c             	push   0xc(%esi)
+ 6f4:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 6f9:	fe                   	(bad)
+ 6fa:	ff                   	(bad)
+ 6fb:	ff 76 0e             	push   0xe(%esi)
+ 6fe:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 703:	fe                   	(bad)
+ 704:	ff                   	(bad)
+ 705:	ff 76 10             	push   0x10(%esi)
+ 708:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 70d:	fe                   	(bad)
+ 70e:	ff 83 c4 20 b0 13    	incl   0x13b020c4(%ebx)
+ 714:	50                   	push   %eax
+ 715:	e8 fe ff 57 e8       	call   0xe8580718
+ 71a:	fe                   	(bad)
+ 71b:	ff 31                	push   (%ecx)
+ 71d:	d2 88 c2 89 56 fe    	rorb   %cl,-0x1a9763e(%eax)
+ 723:	56                   	push   %esi
+ 724:	e8 fe ff b1 08       	call   0x8b20727
+ 729:	d3 e0                	shl    %cl,%eax
+ 72b:	8b 56 fe             	mov    -0x2(%esi),%edx
+ 72e:	09 d0                	or     %edx,%eax
+ 730:	89 ec                	mov    %ebp,%esp
+ 732:	5d                   	pop    %ebp
+ 733:	5f                   	pop    %edi
+ 734:	5e                   	pop    %esi
+ 735:	c3                   	ret
+ 736:	56                   	push   %esi
+ 737:	57                   	push   %edi
+ 738:	06                   	push   %es
+ 739:	55                   	push   %ebp
+ 73a:	89 e5                	mov    %esp,%ebp
+ 73c:	83 ec 06             	sub    $0x6,%esp
+ 73f:	8a 46 0a             	mov    0xa(%esi),%al
+ 742:	88 46 ff             	mov    %al,-0x1(%esi)
+ 745:	8a 46 0c             	mov    0xc(%esi),%al
+ 748:	88 46 fe             	mov    %al,-0x2(%esi)
+ 74b:	8a 46 0e             	mov    0xe(%esi),%al
+ 74e:	88 46 fd             	mov    %al,-0x3(%esi)
+ 751:	8a 46 10             	mov    0x10(%esi),%al
+ 754:	88 46 fc             	mov    %al,-0x4(%esi)
+ 757:	8a 46 12             	mov    0x12(%esi),%al
+ 75a:	88 46 fb             	mov    %al,-0x5(%esi)
+ 75d:	8b 7e 14             	mov    0x14(%esi),%edi
+ 760:	8b 76 16             	mov    0x16(%esi),%esi
+ 763:	b0 05                	mov    $0x5,%al
+ 765:	50                   	push   %eax
+ 766:	b8 00 00 8e c0       	mov    $0xc08e0000,%eax
+ 76b:	50                   	push   %eax
+ 76c:	e8 fe ff ff 76       	call   0x7700076f
+ 771:	ff                   	(bad)
+ 772:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 777:	fe                   	(bad)
+ 778:	ff                   	(bad)
+ 779:	ff 76 fe             	push   -0x2(%esi)
+ 77c:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 781:	fe                   	(bad)
+ 782:	ff                   	(bad)
+ 783:	ff 76 fd             	push   -0x3(%esi)
+ 786:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 78b:	fe                   	(bad)
+ 78c:	ff                   	(bad)
+ 78d:	ff 76 fc             	push   -0x4(%esi)
+ 790:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 795:	fe                   	(bad)
+ 796:	ff                   	(bad)
+ 797:	ff 76 fb             	push   -0x5(%esi)
+ 79a:	b8 00 00 50 e8       	mov    $0xe8500000,%eax
+ 79f:	fe                   	(bad)
+ 7a0:	ff 56 b8             	call   *-0x48(%esi)
+ 7a3:	00 00                	add    %al,(%eax)
+ 7a5:	50                   	push   %eax
+ 7a6:	e8 fe ff 57 b8       	call   0xb85807a9
+ 7ab:	00 00                	add    %al,(%eax)
+ 7ad:	50                   	push   %eax
+ 7ae:	e8 fe ff 83 c4       	call   0xc48407b1
+ 7b3:	20 b0 13 50 e8 fe    	and    %dh,-0x117afed(%eax)
+ 7b9:	ff 83 c4 02 8c 46    	incl   0x468c02c4(%ebx)
+ 7bf:	0a 89 ec 5d 07 5f    	or     0x5f075dec(%ecx),%cl
+ 7c5:	5e                   	pop    %esi
+ 7c6:	e9                   	.byte 0xe9
+ 7c7:	fe                   	(bad)
+ 7c8:	ff c3                	inc    %ebx
+
+Disassembly of section .text._ZN6REG_AX5__movEt:
+
+00000000 <.text._ZN6REG_AX5__movEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	89 46 06             	mov    %eax,0x6(%esi)
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__movEv:
+
+00000000 <.text._ZN6REG_AX5__movEv>:
+   0:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX4__orEt:
+
+00000000 <.text._ZN6REG_AX4__orEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	09 46 06             	or     %eax,0x6(%esi)
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__andEt:
+
+00000000 <.text._ZN6REG_AX5__andEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	21 46 06             	and    %eax,0x6(%esi)
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__xorEt:
+
+00000000 <.text._ZN6REG_AX5__xorEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	31 46 06             	xor    %eax,0x6(%esi)
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__notEv:
+
+00000000 <.text._ZN6REG_AX5__notEv>:
+   0:	f7 d0                	not    %eax
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__shlEh:
+
+00000000 <.text._ZN6REG_AX5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 e0                	shl    %cl,%eax
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__shrEh:
+
+00000000 <.text._ZN6REG_AX5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 e8                	shr    %cl,%eax
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__rolEh:
+
+00000000 <.text._ZN6REG_AX5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 c0                	rol    %cl,%eax
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__rorEh:
+
+00000000 <.text._ZN6REG_AX5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 c8                	ror    %cl,%eax
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__addEt:
+
+00000000 <.text._ZN6REG_AX5__addEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	03 46 06             	add    0x6(%esi),%eax
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__subEt:
+
+00000000 <.text._ZN6REG_AX5__subEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2b 46 06             	sub    0x6(%esi),%eax
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__incEv:
+
+00000000 <.text._ZN6REG_AX5__incEv>:
+   0:	40                   	inc    %eax
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AX5__decEv:
+
+00000000 <.text._ZN6REG_AX5__decEv>:
+   0:	48                   	dec    %eax
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__movEh:
+
+00000000 <.text._ZN6REG_AH5__movEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 66 06             	mov    0x6(%esi),%ah
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__movEv:
+
+00000000 <.text._ZN6REG_AH5__movEv>:
+   0:	88 e0                	mov    %ah,%al
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH4__orEh:
+
+00000000 <.text._ZN6REG_AH4__orEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0a 66 06             	or     0x6(%esi),%ah
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__andEh:
+
+00000000 <.text._ZN6REG_AH5__andEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	22 66 06             	and    0x6(%esi),%ah
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__xorEh:
+
+00000000 <.text._ZN6REG_AH5__xorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	32 66 06             	xor    0x6(%esi),%ah
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__notEv:
+
+00000000 <.text._ZN6REG_AH5__notEv>:
+   0:	f6 d4                	not    %ah
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__shlEh:
+
+00000000 <.text._ZN6REG_AH5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 e4                	shl    %cl,%ah
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__shrEh:
+
+00000000 <.text._ZN6REG_AH5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 ec                	shr    %cl,%ah
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__rolEh:
+
+00000000 <.text._ZN6REG_AH5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 c4                	rol    %cl,%ah
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__rorEh:
+
+00000000 <.text._ZN6REG_AH5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 cc                	ror    %cl,%ah
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__addEh:
+
+00000000 <.text._ZN6REG_AH5__addEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	02 66 06             	add    0x6(%esi),%ah
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__subEh:
+
+00000000 <.text._ZN6REG_AH5__subEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2a 66 06             	sub    0x6(%esi),%ah
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__incEv:
+
+00000000 <.text._ZN6REG_AH5__incEv>:
+   0:	fe c4                	inc    %ah
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AH5__decEv:
+
+00000000 <.text._ZN6REG_AH5__decEv>:
+   0:	fe cc                	dec    %ah
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__movEh:
+
+00000000 <.text._ZN6REG_AL5__movEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 46 06             	mov    0x6(%esi),%al
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__movEv:
+
+00000000 <.text._ZN6REG_AL5__movEv>:
+   0:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL4__orEh:
+
+00000000 <.text._ZN6REG_AL4__orEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0a 46 06             	or     0x6(%esi),%al
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__andEh:
+
+00000000 <.text._ZN6REG_AL5__andEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	22 46 06             	and    0x6(%esi),%al
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__xorEh:
+
+00000000 <.text._ZN6REG_AL5__xorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	32 46 06             	xor    0x6(%esi),%al
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__notEv:
+
+00000000 <.text._ZN6REG_AL5__notEv>:
+   0:	f6 d0                	not    %al
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__shlEh:
+
+00000000 <.text._ZN6REG_AL5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 e0                	shl    %cl,%al
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__shrEh:
+
+00000000 <.text._ZN6REG_AL5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 e8                	shr    %cl,%al
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__rolEh:
+
+00000000 <.text._ZN6REG_AL5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 c0                	rol    %cl,%al
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__rorEh:
+
+00000000 <.text._ZN6REG_AL5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 c8                	ror    %cl,%al
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__addEh:
+
+00000000 <.text._ZN6REG_AL5__addEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	02 46 06             	add    0x6(%esi),%al
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__subEh:
+
+00000000 <.text._ZN6REG_AL5__subEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2a 46 06             	sub    0x6(%esi),%al
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__incEv:
+
+00000000 <.text._ZN6REG_AL5__incEv>:
+   0:	fe c0                	inc    %al
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_AL5__decEv:
+
+00000000 <.text._ZN6REG_AL5__decEv>:
+   0:	fe c8                	dec    %al
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__movEt:
+
+00000000 <.text._ZN6REG_BX5__movEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8b 5e 06             	mov    0x6(%esi),%ebx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__movEv:
+
+00000000 <.text._ZN6REG_BX5__movEv>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	93                   	xchg   %eax,%ebx
+   4:	5d                   	pop    %ebp
+   5:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX4__orEt:
+
+00000000 <.text._ZN6REG_BX4__orEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0b 5e 06             	or     0x6(%esi),%ebx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__andEt:
+
+00000000 <.text._ZN6REG_BX5__andEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	23 5e 06             	and    0x6(%esi),%ebx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__xorEt:
+
+00000000 <.text._ZN6REG_BX5__xorEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	33 5e 06             	xor    0x6(%esi),%ebx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__notEv:
+
+00000000 <.text._ZN6REG_BX5__notEv>:
+   0:	f7 d3                	not    %ebx
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__shlEh:
+
+00000000 <.text._ZN6REG_BX5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 e3                	shl    %cl,%ebx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__shrEh:
+
+00000000 <.text._ZN6REG_BX5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 eb                	shr    %cl,%ebx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__rolEh:
+
+00000000 <.text._ZN6REG_BX5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 c3                	rol    %cl,%ebx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__rorEh:
+
+00000000 <.text._ZN6REG_BX5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 cb                	ror    %cl,%ebx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__addEt:
+
+00000000 <.text._ZN6REG_BX5__addEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	03 5e 06             	add    0x6(%esi),%ebx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__subEt:
+
+00000000 <.text._ZN6REG_BX5__subEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2b 5e 06             	sub    0x6(%esi),%ebx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__incEv:
+
+00000000 <.text._ZN6REG_BX5__incEv>:
+   0:	43                   	inc    %ebx
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BX5__decEv:
+
+00000000 <.text._ZN6REG_BX5__decEv>:
+   0:	4b                   	dec    %ebx
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__movEh:
+
+00000000 <.text._ZN6REG_BH5__movEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 7e 06             	mov    0x6(%esi),%bh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__movEv:
+
+00000000 <.text._ZN6REG_BH5__movEv>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	88 f8                	mov    %bh,%al
+   5:	5d                   	pop    %ebp
+   6:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH4__orEh:
+
+00000000 <.text._ZN6REG_BH4__orEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0a 7e 06             	or     0x6(%esi),%bh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__andEh:
+
+00000000 <.text._ZN6REG_BH5__andEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	22 7e 06             	and    0x6(%esi),%bh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__xorEh:
+
+00000000 <.text._ZN6REG_BH5__xorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	32 7e 06             	xor    0x6(%esi),%bh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__notEv:
+
+00000000 <.text._ZN6REG_BH5__notEv>:
+   0:	f6 d7                	not    %bh
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__shlEh:
+
+00000000 <.text._ZN6REG_BH5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 e7                	shl    %cl,%bh
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__shrEh:
+
+00000000 <.text._ZN6REG_BH5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 ef                	shr    %cl,%bh
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__rolEh:
+
+00000000 <.text._ZN6REG_BH5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 c7                	rol    %cl,%bh
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__rorEh:
+
+00000000 <.text._ZN6REG_BH5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 cf                	ror    %cl,%bh
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__addEh:
+
+00000000 <.text._ZN6REG_BH5__addEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	02 7e 06             	add    0x6(%esi),%bh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__subEh:
+
+00000000 <.text._ZN6REG_BH5__subEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2a 7e 06             	sub    0x6(%esi),%bh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__incEv:
+
+00000000 <.text._ZN6REG_BH5__incEv>:
+   0:	fe c7                	inc    %bh
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BH5__decEv:
+
+00000000 <.text._ZN6REG_BH5__decEv>:
+   0:	fe cf                	dec    %bh
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__movEh:
+
+00000000 <.text._ZN6REG_BL5__movEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 5e 06             	mov    0x6(%esi),%bl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__movEv:
+
+00000000 <.text._ZN6REG_BL5__movEv>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	88 d8                	mov    %bl,%al
+   5:	5d                   	pop    %ebp
+   6:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL4__orEh:
+
+00000000 <.text._ZN6REG_BL4__orEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0a 5e 06             	or     0x6(%esi),%bl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__andEh:
+
+00000000 <.text._ZN6REG_BL5__andEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	22 5e 06             	and    0x6(%esi),%bl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__xorEh:
+
+00000000 <.text._ZN6REG_BL5__xorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	32 5e 06             	xor    0x6(%esi),%bl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__notEv:
+
+00000000 <.text._ZN6REG_BL5__notEv>:
+   0:	f6 d3                	not    %bl
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__shlEh:
+
+00000000 <.text._ZN6REG_BL5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 e3                	shl    %cl,%bl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__shrEh:
+
+00000000 <.text._ZN6REG_BL5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 eb                	shr    %cl,%bl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__rolEh:
+
+00000000 <.text._ZN6REG_BL5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 c3                	rol    %cl,%bl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__rorEh:
+
+00000000 <.text._ZN6REG_BL5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 cb                	ror    %cl,%bl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__addEh:
+
+00000000 <.text._ZN6REG_BL5__addEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	02 5e 06             	add    0x6(%esi),%bl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__subEh:
+
+00000000 <.text._ZN6REG_BL5__subEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2a 5e 06             	sub    0x6(%esi),%bl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__incEv:
+
+00000000 <.text._ZN6REG_BL5__incEv>:
+   0:	fe c3                	inc    %bl
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BL5__decEv:
+
+00000000 <.text._ZN6REG_BL5__decEv>:
+   0:	fe cb                	dec    %bl
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__movEt:
+
+00000000 <.text._ZN6REG_CX5__movEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8b 4e 06             	mov    0x6(%esi),%ecx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__movEv:
+
+00000000 <.text._ZN6REG_CX5__movEv>:
+   0:	91                   	xchg   %eax,%ecx
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX4__orEt:
+
+00000000 <.text._ZN6REG_CX4__orEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0b 4e 06             	or     0x6(%esi),%ecx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__andEt:
+
+00000000 <.text._ZN6REG_CX5__andEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	23 4e 06             	and    0x6(%esi),%ecx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__xorEt:
+
+00000000 <.text._ZN6REG_CX5__xorEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	33 4e 06             	xor    0x6(%esi),%ecx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__notEv:
+
+00000000 <.text._ZN6REG_CX5__notEv>:
+   0:	f7 d1                	not    %ecx
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__shlEh:
+
+00000000 <.text._ZN6REG_CX5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 e1                	shl    %cl,%ecx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__shrEh:
+
+00000000 <.text._ZN6REG_CX5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 e9                	shr    %cl,%ecx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__rolEh:
+
+00000000 <.text._ZN6REG_CX5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 c1                	rol    %cl,%ecx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__rorEh:
+
+00000000 <.text._ZN6REG_CX5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 c9                	ror    %cl,%ecx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__addEt:
+
+00000000 <.text._ZN6REG_CX5__addEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	03 4e 06             	add    0x6(%esi),%ecx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__subEt:
+
+00000000 <.text._ZN6REG_CX5__subEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2b 4e 06             	sub    0x6(%esi),%ecx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__incEv:
+
+00000000 <.text._ZN6REG_CX5__incEv>:
+   0:	41                   	inc    %ecx
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CX5__decEv:
+
+00000000 <.text._ZN6REG_CX5__decEv>:
+   0:	49                   	dec    %ecx
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__movEh:
+
+00000000 <.text._ZN6REG_CH5__movEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 6e 06             	mov    0x6(%esi),%ch
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__movEv:
+
+00000000 <.text._ZN6REG_CH5__movEv>:
+   0:	88 e8                	mov    %ch,%al
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH4__orEh:
+
+00000000 <.text._ZN6REG_CH4__orEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0a 6e 06             	or     0x6(%esi),%ch
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__andEh:
+
+00000000 <.text._ZN6REG_CH5__andEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	22 6e 06             	and    0x6(%esi),%ch
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__xorEh:
+
+00000000 <.text._ZN6REG_CH5__xorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	32 6e 06             	xor    0x6(%esi),%ch
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__notEv:
+
+00000000 <.text._ZN6REG_CH5__notEv>:
+   0:	f6 d5                	not    %ch
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__shlEh:
+
+00000000 <.text._ZN6REG_CH5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 e5                	shl    %cl,%ch
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__shrEh:
+
+00000000 <.text._ZN6REG_CH5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 ed                	shr    %cl,%ch
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__rolEh:
+
+00000000 <.text._ZN6REG_CH5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 c5                	rol    %cl,%ch
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__rorEh:
+
+00000000 <.text._ZN6REG_CH5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 cd                	ror    %cl,%ch
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__addEh:
+
+00000000 <.text._ZN6REG_CH5__addEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	02 6e 06             	add    0x6(%esi),%ch
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__subEh:
+
+00000000 <.text._ZN6REG_CH5__subEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2a 6e 06             	sub    0x6(%esi),%ch
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__incEv:
+
+00000000 <.text._ZN6REG_CH5__incEv>:
+   0:	fe c5                	inc    %ch
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CH5__decEv:
+
+00000000 <.text._ZN6REG_CH5__decEv>:
+   0:	fe cd                	dec    %ch
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__movEh:
+
+00000000 <.text._ZN6REG_CL5__movEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__movEv:
+
+00000000 <.text._ZN6REG_CL5__movEv>:
+   0:	88 c8                	mov    %cl,%al
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL4__orEh:
+
+00000000 <.text._ZN6REG_CL4__orEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0a 4e 06             	or     0x6(%esi),%cl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__andEh:
+
+00000000 <.text._ZN6REG_CL5__andEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	22 4e 06             	and    0x6(%esi),%cl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__xorEh:
+
+00000000 <.text._ZN6REG_CL5__xorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	32 4e 06             	xor    0x6(%esi),%cl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__notEv:
+
+00000000 <.text._ZN6REG_CL5__notEv>:
+   0:	f6 d1                	not    %cl
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__shlEh:
+
+00000000 <.text._ZN6REG_CL5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 e1                	shl    %cl,%cl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__shrEh:
+
+00000000 <.text._ZN6REG_CL5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 e9                	shr    %cl,%cl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__rolEh:
+
+00000000 <.text._ZN6REG_CL5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 c1                	rol    %cl,%cl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__rorEh:
+
+00000000 <.text._ZN6REG_CL5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 c9                	ror    %cl,%cl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__addEh:
+
+00000000 <.text._ZN6REG_CL5__addEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	02 4e 06             	add    0x6(%esi),%cl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__subEh:
+
+00000000 <.text._ZN6REG_CL5__subEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2a 4e 06             	sub    0x6(%esi),%cl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__incEv:
+
+00000000 <.text._ZN6REG_CL5__incEv>:
+   0:	fe c1                	inc    %cl
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_CL5__decEv:
+
+00000000 <.text._ZN6REG_CL5__decEv>:
+   0:	fe c9                	dec    %cl
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__movEt:
+
+00000000 <.text._ZN6REG_DX5__movEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8b 56 06             	mov    0x6(%esi),%edx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__movEv:
+
+00000000 <.text._ZN6REG_DX5__movEv>:
+   0:	92                   	xchg   %eax,%edx
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX4__orEt:
+
+00000000 <.text._ZN6REG_DX4__orEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0b 56 06             	or     0x6(%esi),%edx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__andEt:
+
+00000000 <.text._ZN6REG_DX5__andEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	23 56 06             	and    0x6(%esi),%edx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__xorEt:
+
+00000000 <.text._ZN6REG_DX5__xorEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	33 56 06             	xor    0x6(%esi),%edx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__notEv:
+
+00000000 <.text._ZN6REG_DX5__notEv>:
+   0:	f7 d2                	not    %edx
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__shlEh:
+
+00000000 <.text._ZN6REG_DX5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 e2                	shl    %cl,%edx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__shrEh:
+
+00000000 <.text._ZN6REG_DX5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 ea                	shr    %cl,%edx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__rolEh:
+
+00000000 <.text._ZN6REG_DX5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 c2                	rol    %cl,%edx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__rorEh:
+
+00000000 <.text._ZN6REG_DX5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 ca                	ror    %cl,%edx
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__addEt:
+
+00000000 <.text._ZN6REG_DX5__addEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	03 56 06             	add    0x6(%esi),%edx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__subEt:
+
+00000000 <.text._ZN6REG_DX5__subEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2b 56 06             	sub    0x6(%esi),%edx
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__incEv:
+
+00000000 <.text._ZN6REG_DX5__incEv>:
+   0:	42                   	inc    %edx
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DX5__decEv:
+
+00000000 <.text._ZN6REG_DX5__decEv>:
+   0:	4a                   	dec    %edx
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__movEh:
+
+00000000 <.text._ZN6REG_DH5__movEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 76 06             	mov    0x6(%esi),%dh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__movEv:
+
+00000000 <.text._ZN6REG_DH5__movEv>:
+   0:	88 f0                	mov    %dh,%al
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH4__orEh:
+
+00000000 <.text._ZN6REG_DH4__orEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0a 76 06             	or     0x6(%esi),%dh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__andEh:
+
+00000000 <.text._ZN6REG_DH5__andEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	22 76 06             	and    0x6(%esi),%dh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__xorEh:
+
+00000000 <.text._ZN6REG_DH5__xorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	32 76 06             	xor    0x6(%esi),%dh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__notEv:
+
+00000000 <.text._ZN6REG_DH5__notEv>:
+   0:	f6 d6                	not    %dh
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__shlEh:
+
+00000000 <.text._ZN6REG_DH5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 e6                	shl    %cl,%dh
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__shrEh:
+
+00000000 <.text._ZN6REG_DH5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 ee                	shr    %cl,%dh
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__rolEh:
+
+00000000 <.text._ZN6REG_DH5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 c6                	rol    %cl,%dh
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__rorEh:
+
+00000000 <.text._ZN6REG_DH5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 ce                	ror    %cl,%dh
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__addEh:
+
+00000000 <.text._ZN6REG_DH5__addEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	02 76 06             	add    0x6(%esi),%dh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__subEh:
+
+00000000 <.text._ZN6REG_DH5__subEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2a 76 06             	sub    0x6(%esi),%dh
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__incEv:
+
+00000000 <.text._ZN6REG_DH5__incEv>:
+   0:	fe c6                	inc    %dh
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DH5__decEv:
+
+00000000 <.text._ZN6REG_DH5__decEv>:
+   0:	fe ce                	dec    %dh
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__movEh:
+
+00000000 <.text._ZN6REG_DL5__movEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 56 06             	mov    0x6(%esi),%dl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__movEv:
+
+00000000 <.text._ZN6REG_DL5__movEv>:
+   0:	88 d0                	mov    %dl,%al
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL4__orEh:
+
+00000000 <.text._ZN6REG_DL4__orEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0a 56 06             	or     0x6(%esi),%dl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__andEh:
+
+00000000 <.text._ZN6REG_DL5__andEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	22 56 06             	and    0x6(%esi),%dl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__xorEh:
+
+00000000 <.text._ZN6REG_DL5__xorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	32 56 06             	xor    0x6(%esi),%dl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__notEv:
+
+00000000 <.text._ZN6REG_DL5__notEv>:
+   0:	f6 d2                	not    %dl
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__shlEh:
+
+00000000 <.text._ZN6REG_DL5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 e2                	shl    %cl,%dl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__shrEh:
+
+00000000 <.text._ZN6REG_DL5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 ea                	shr    %cl,%dl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__rolEh:
+
+00000000 <.text._ZN6REG_DL5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 c2                	rol    %cl,%dl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__rorEh:
+
+00000000 <.text._ZN6REG_DL5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d2 ca                	ror    %cl,%dl
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__addEh:
+
+00000000 <.text._ZN6REG_DL5__addEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	02 56 06             	add    0x6(%esi),%dl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__subEh:
+
+00000000 <.text._ZN6REG_DL5__subEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2a 56 06             	sub    0x6(%esi),%dl
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__incEv:
+
+00000000 <.text._ZN6REG_DL5__incEv>:
+   0:	fe c2                	inc    %dl
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DL5__decEv:
+
+00000000 <.text._ZN6REG_DL5__decEv>:
+   0:	fe ca                	dec    %dl
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__movEt:
+
+00000000 <.text._ZN6REG_SI5__movEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8b 76 06             	mov    0x6(%esi),%esi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__movEv:
+
+00000000 <.text._ZN6REG_SI5__movEv>:
+   0:	56                   	push   %esi
+   1:	96                   	xchg   %eax,%esi
+   2:	5e                   	pop    %esi
+   3:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI4__orEt:
+
+00000000 <.text._ZN6REG_SI4__orEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0b 76 06             	or     0x6(%esi),%esi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__andEt:
+
+00000000 <.text._ZN6REG_SI5__andEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	23 76 06             	and    0x6(%esi),%esi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__xorEt:
+
+00000000 <.text._ZN6REG_SI5__xorEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	33 76 06             	xor    0x6(%esi),%esi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__notEv:
+
+00000000 <.text._ZN6REG_SI5__notEv>:
+   0:	f7 d6                	not    %esi
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__shlEh:
+
+00000000 <.text._ZN6REG_SI5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 e6                	shl    %cl,%esi
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__shrEh:
+
+00000000 <.text._ZN6REG_SI5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 ee                	shr    %cl,%esi
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__rolEh:
+
+00000000 <.text._ZN6REG_SI5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 c6                	rol    %cl,%esi
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__rorEh:
+
+00000000 <.text._ZN6REG_SI5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 ce                	ror    %cl,%esi
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__addEt:
+
+00000000 <.text._ZN6REG_SI5__addEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	03 76 06             	add    0x6(%esi),%esi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__subEt:
+
+00000000 <.text._ZN6REG_SI5__subEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2b 76 06             	sub    0x6(%esi),%esi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__incEv:
+
+00000000 <.text._ZN6REG_SI5__incEv>:
+   0:	46                   	inc    %esi
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SI5__decEv:
+
+00000000 <.text._ZN6REG_SI5__decEv>:
+   0:	4e                   	dec    %esi
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__movEt:
+
+00000000 <.text._ZN6REG_DI5__movEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8b 7e 06             	mov    0x6(%esi),%edi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__movEv:
+
+00000000 <.text._ZN6REG_DI5__movEv>:
+   0:	57                   	push   %edi
+   1:	97                   	xchg   %eax,%edi
+   2:	5f                   	pop    %edi
+   3:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI4__orEt:
+
+00000000 <.text._ZN6REG_DI4__orEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0b 7e 06             	or     0x6(%esi),%edi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__andEt:
+
+00000000 <.text._ZN6REG_DI5__andEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	23 7e 06             	and    0x6(%esi),%edi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__xorEt:
+
+00000000 <.text._ZN6REG_DI5__xorEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	33 7e 06             	xor    0x6(%esi),%edi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__notEv:
+
+00000000 <.text._ZN6REG_DI5__notEv>:
+   0:	f7 d7                	not    %edi
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__shlEh:
+
+00000000 <.text._ZN6REG_DI5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 e7                	shl    %cl,%edi
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__shrEh:
+
+00000000 <.text._ZN6REG_DI5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 ef                	shr    %cl,%edi
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__rolEh:
+
+00000000 <.text._ZN6REG_DI5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 c7                	rol    %cl,%edi
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__rorEh:
+
+00000000 <.text._ZN6REG_DI5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 cf                	ror    %cl,%edi
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__addEt:
+
+00000000 <.text._ZN6REG_DI5__addEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	03 7e 06             	add    0x6(%esi),%edi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__subEt:
+
+00000000 <.text._ZN6REG_DI5__subEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2b 7e 06             	sub    0x6(%esi),%edi
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__incEv:
+
+00000000 <.text._ZN6REG_DI5__incEv>:
+   0:	47                   	inc    %edi
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_DI5__decEv:
+
+00000000 <.text._ZN6REG_DI5__decEv>:
+   0:	4f                   	dec    %edi
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__movEt:
+
+00000000 <.text._ZN6REG_BP5__movEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8b 6e 06             	mov    0x6(%esi),%ebp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__movEv:
+
+00000000 <.text._ZN6REG_BP5__movEv>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	89 e8                	mov    %ebp,%eax
+   5:	5d                   	pop    %ebp
+   6:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP4__orEt:
+
+00000000 <.text._ZN6REG_BP4__orEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0b 6e 06             	or     0x6(%esi),%ebp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__andEt:
+
+00000000 <.text._ZN6REG_BP5__andEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	23 6e 06             	and    0x6(%esi),%ebp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__xorEt:
+
+00000000 <.text._ZN6REG_BP5__xorEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	33 6e 06             	xor    0x6(%esi),%ebp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__notEv:
+
+00000000 <.text._ZN6REG_BP5__notEv>:
+   0:	f7 d5                	not    %ebp
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__shlEh:
+
+00000000 <.text._ZN6REG_BP5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 e5                	shl    %cl,%ebp
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__shrEh:
+
+00000000 <.text._ZN6REG_BP5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 ed                	shr    %cl,%ebp
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__rolEh:
+
+00000000 <.text._ZN6REG_BP5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 c5                	rol    %cl,%ebp
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__rorEh:
+
+00000000 <.text._ZN6REG_BP5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 cd                	ror    %cl,%ebp
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__addEt:
+
+00000000 <.text._ZN6REG_BP5__addEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	03 6e 06             	add    0x6(%esi),%ebp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__subEt:
+
+00000000 <.text._ZN6REG_BP5__subEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2b 6e 06             	sub    0x6(%esi),%ebp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__incEv:
+
+00000000 <.text._ZN6REG_BP5__incEv>:
+   0:	45                   	inc    %ebp
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_BP5__decEv:
+
+00000000 <.text._ZN6REG_BP5__decEv>:
+   0:	4d                   	dec    %ebp
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__movEt:
+
+00000000 <.text._ZN6REG_SP5__movEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8b 66 06             	mov    0x6(%esi),%esp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__movEv:
+
+00000000 <.text._ZN6REG_SP5__movEv>:
+   0:	89 e0                	mov    %esp,%eax
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP4__orEt:
+
+00000000 <.text._ZN6REG_SP4__orEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	0b 66 06             	or     0x6(%esi),%esp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__andEt:
+
+00000000 <.text._ZN6REG_SP5__andEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	23 66 06             	and    0x6(%esi),%esp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__xorEt:
+
+00000000 <.text._ZN6REG_SP5__xorEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	33 66 06             	xor    0x6(%esi),%esp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__notEv:
+
+00000000 <.text._ZN6REG_SP5__notEv>:
+   0:	f7 d4                	not    %esp
+   2:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__shlEh:
+
+00000000 <.text._ZN6REG_SP5__shlEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 e4                	shl    %cl,%esp
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__shrEh:
+
+00000000 <.text._ZN6REG_SP5__shrEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 ec                	shr    %cl,%esp
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__rolEh:
+
+00000000 <.text._ZN6REG_SP5__rolEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 c4                	rol    %cl,%esp
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__rorEh:
+
+00000000 <.text._ZN6REG_SP5__rorEh>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8a 4e 06             	mov    0x6(%esi),%cl
+   6:	d3 cc                	ror    %cl,%esp
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__addEt:
+
+00000000 <.text._ZN6REG_SP5__addEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	03 66 06             	add    0x6(%esi),%esp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__subEt:
+
+00000000 <.text._ZN6REG_SP5__subEt>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	2b 66 06             	sub    0x6(%esi),%esp
+   6:	5d                   	pop    %ebp
+   7:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__incEv:
+
+00000000 <.text._ZN6REG_SP5__incEv>:
+   0:	44                   	inc    %esp
+   1:	c3                   	ret
+
+Disassembly of section .text._ZN6REG_SP5__decEv:
+
+00000000 <.text._ZN6REG_SP5__decEv>:
+   0:	4c                   	dec    %esp
+   1:	c3                   	ret
+
+Disassembly of section .rodata._ZTV6REG_AX:
+
+00000000 <.rodata._ZTV6REG_AX>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_AH:
+
+00000000 <.rodata._ZTV6REG_AH>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_AL:
+
+00000000 <.rodata._ZTV6REG_AL>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_BX:
+
+00000000 <.rodata._ZTV6REG_BX>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_BH:
+
+00000000 <.rodata._ZTV6REG_BH>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_BL:
+
+00000000 <.rodata._ZTV6REG_BL>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_CX:
+
+00000000 <.rodata._ZTV6REG_CX>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_CH:
+
+00000000 <.rodata._ZTV6REG_CH>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_CL:
+
+00000000 <.rodata._ZTV6REG_CL>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_DX:
+
+00000000 <.rodata._ZTV6REG_DX>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_DH:
+
+00000000 <.rodata._ZTV6REG_DH>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_DL:
+
+00000000 <.rodata._ZTV6REG_DL>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_SI:
+
+00000000 <.rodata._ZTV6REG_SI>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_DI:
+
+00000000 <.rodata._ZTV6REG_DI>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_BP:
+
+00000000 <.rodata._ZTV6REG_BP>:
+	...
+
+Disassembly of section .rodata._ZTV6REG_SP:
+
+00000000 <.rodata._ZTV6REG_SP>:
+	...
+
+Disassembly of section .data:
+
+00000000 <.data>:
+   0:	04 00                	add    $0x0,%al
+   2:	04 00                	add    $0x0,%al
+   4:	04 00                	add    $0x0,%al
+   6:	04 00                	add    $0x0,%al
+   8:	04 00                	add    $0x0,%al
+   a:	04 00                	add    $0x0,%al
+   c:	04 00                	add    $0x0,%al
+   e:	04 00                	add    $0x0,%al
+  10:	04 00                	add    $0x0,%al
+  12:	04 00                	add    $0x0,%al
+  14:	04 00                	add    $0x0,%al
+  16:	04 00                	add    $0x0,%al
+  18:	04 00                	add    $0x0,%al
+  1a:	04 00                	add    $0x0,%al
+  1c:	04 00                	add    $0x0,%al
+  1e:	04 00                	add    $0x0,%al
+  20:	04 00                	add    $0x0,%al
+  22:	04 00                	add    $0x0,%al
+  24:	04 00                	add    $0x0,%al
+  26:	04 00                	add    $0x0,%al
+  28:	04 00                	add    $0x0,%al
+  2a:	04 00                	add    $0x0,%al
+  2c:	04 00                	add    $0x0,%al
+  2e:	04 00                	add    $0x0,%al
+  30:	04 00                	add    $0x0,%al
+  32:	04 00                	add    $0x0,%al
+  34:	04 00                	add    $0x0,%al
+  36:	04 00                	add    $0x0,%al
+  38:	04 00                	add    $0x0,%al
+  3a:	04 00                	add    $0x0,%al
+  3c:	04 00                	add    $0x0,%al
+  3e:	04 00                	add    $0x0,%al
+  40:	04 00                	add    $0x0,%al
+  42:	04 00                	add    $0x0,%al
+  44:	04 00                	add    $0x0,%al
+  46:	04 00                	add    $0x0,%al
+  48:	04 00                	add    $0x0,%al
+  4a:	04 00                	add    $0x0,%al
+  4c:	04 00                	add    $0x0,%al
+  4e:	04 00                	add    $0x0,%al
+  50:	04 00                	add    $0x0,%al
+  52:	04 00                	add    $0x0,%al
+  54:	04 00                	add    $0x0,%al
+  56:	04 00                	add    $0x0,%al
+  58:	04 00                	add    $0x0,%al
+  5a:	04 00                	add    $0x0,%al
+  5c:	04 00                	add    $0x0,%al
+  5e:	04 00                	add    $0x0,%al
+  60:	04 00                	add    $0x0,%al
+  62:	04 00                	add    $0x0,%al
+  64:	04 00                	add    $0x0,%al
+  66:	04 00                	add    $0x0,%al
+  68:	04 00                	add    $0x0,%al
+  6a:	04 00                	add    $0x0,%al
+  6c:	04 00                	add    $0x0,%al
+  6e:	04 00                	add    $0x0,%al
+  70:	04 00                	add    $0x0,%al
+  72:	04 00                	add    $0x0,%al
+  74:	04 00                	add    $0x0,%al
+  76:	04 00                	add    $0x0,%al
+  78:	04 00                	add    $0x0,%al
+  7a:	04 00                	add    $0x0,%al
+  7c:	04 00                	add    $0x0,%al
+  7e:	04 00                	add    $0x0,%al
+  80:	04 00                	add    $0x0,%al
+  82:	04 00                	add    $0x0,%al
+  84:	04 00                	add    $0x0,%al
+  86:	04 00                	add    $0x0,%al
+  88:	04 00                	add    $0x0,%al
+  8a:	04 00                	add    $0x0,%al
+  8c:	04 00                	add    $0x0,%al
+  8e:	04 00                	add    $0x0,%al
+  90:	04 00                	add    $0x0,%al
+  92:	04 00                	add    $0x0,%al
+  94:	04 00                	add    $0x0,%al
+  96:	04 00                	add    $0x0,%al
+  98:	04 00                	add    $0x0,%al
+  9a:	04 00                	add    $0x0,%al
+  9c:	04 00                	add    $0x0,%al
+  9e:	04 00                	add    $0x0,%al
+
+Disassembly of section .bss:
+
+00000000 <.bss>:
+	...
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	00 47 43             	add    %al,0x43(%edi)
+   3:	43                   	inc    %ebx
+   4:	3a 20                	cmp    (%eax),%ah
+   6:	28 47 4e             	sub    %al,0x4e(%edi)
+   9:	55                   	push   %ebp
+   a:	29 20                	sub    %esp,(%eax)
+   c:	36 2e 33 2e          	ss xor %cs:(%esi),%ebp
+  10:	30 00                	xor    %al,(%eax)
+  12:	00 47 43             	add    %al,0x43(%edi)
+  15:	43                   	inc    %ebx
+  16:	3a 20                	cmp    (%eax),%ah
+  18:	28 47 4e             	sub    %al,0x4e(%edi)
+  1b:	55                   	push   %ebp
+  1c:	29 20                	sub    %esp,(%eax)
+  1e:	36 2e 33 2e          	ss xor %cs:(%esi),%ebp
+  22:	30 00                	xor    %al,(%eax)
+  24:	00 47 43             	add    %al,0x43(%edi)
+  27:	43                   	inc    %ebx
+  28:	3a 20                	cmp    (%eax),%ah
+  2a:	28 47 4e             	sub    %al,0x4e(%edi)
+  2d:	55                   	push   %ebp
+  2e:	29 20                	sub    %esp,(%eax)
+  30:	36 2e 33 2e          	ss xor %cs:(%esi),%ebp
+  34:	30 00                	xor    %al,(%eax)
+  36:	00 47 43             	add    %al,0x43(%edi)
+  39:	43                   	inc    %ebx
+  3a:	3a 20                	cmp    (%eax),%ah
+  3c:	28 47 4e             	sub    %al,0x4e(%edi)
+  3f:	55                   	push   %ebp
+  40:	29 20                	sub    %esp,(%eax)
+  42:	36 2e 33 2e          	ss xor %cs:(%esi),%ebp
+  46:	30 00                	xor    %al,(%eax)
+  48:	00 47 43             	add    %al,0x43(%edi)
+  4b:	43                   	inc    %ebx
+  4c:	3a 20                	cmp    (%eax),%ah
+  4e:	28 47 4e             	sub    %al,0x4e(%edi)
+  51:	55                   	push   %ebp
+  52:	29 20                	sub    %esp,(%eax)
+  54:	36 2e 33 2e          	ss xor %cs:(%esi),%ebp
+  58:	30 00                	xor    %al,(%eax)
+  5a:	00 47 43             	add    %al,0x43(%edi)
+  5d:	43                   	inc    %ebx
+  5e:	3a 20                	cmp    (%eax),%ah
+  60:	28 47 4e             	sub    %al,0x4e(%edi)
+  63:	55                   	push   %ebp
+  64:	29 20                	sub    %esp,(%eax)
+  66:	36 2e 33 2e          	ss xor %cs:(%esi),%ebp
+  6a:	30 00                	xor    %al,(%eax)
+  6c:	00 47 43             	add    %al,0x43(%edi)
+  6f:	43                   	inc    %ebx
+  70:	3a 20                	cmp    (%eax),%ah
+  72:	28 47 4e             	sub    %al,0x4e(%edi)
+  75:	55                   	push   %ebp
+  76:	29 20                	sub    %esp,(%eax)
+  78:	36 2e 33 2e          	ss xor %cs:(%esi),%ebp
+  7c:	30 00                	xor    %al,(%eax)
+  7e:	00 47 43             	add    %al,0x43(%edi)
+  81:	43                   	inc    %ebx
+  82:	3a 20                	cmp    (%eax),%ah
+  84:	28 47 4e             	sub    %al,0x4e(%edi)
+  87:	55                   	push   %ebp
+  88:	29 20                	sub    %esp,(%eax)
+  8a:	36 2e 33 2e          	ss xor %cs:(%esi),%ebp
+  8e:	30 00                	xor    %al,(%eax)
+
